@@ -1,0 +1,14 @@
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\bin\Debug\net8.0-windows\SalesOnline.WinForm.exe
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\bin\Debug\net8.0-windows\SalesOnline.WinForm.deps.json
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\bin\Debug\net8.0-windows\SalesOnline.WinForm.runtimeconfig.json
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\bin\Debug\net8.0-windows\SalesOnline.WinForm.dll
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\bin\Debug\net8.0-windows\SalesOnline.WinForm.pdb
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\obj\Debug\net8.0-windows\SalesOnline.WinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\obj\Debug\net8.0-windows\SalesOnline.WinForm.AssemblyInfoInputs.cache
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\obj\Debug\net8.0-windows\SalesOnline.WinForm.AssemblyInfo.cs
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\obj\Debug\net8.0-windows\SalesOnline.WinForm.csproj.CoreCompileInputs.cache
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\obj\Debug\net8.0-windows\SalesOnline.WinForm.dll
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\obj\Debug\net8.0-windows\refint\SalesOnline.WinForm.dll
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\obj\Debug\net8.0-windows\SalesOnline.WinForm.pdb
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\obj\Debug\net8.0-windows\SalesOnline.WinForm.genruntimeconfig.cache
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.WinForm\obj\Debug\net8.0-windows\ref\SalesOnline.WinForm.dll

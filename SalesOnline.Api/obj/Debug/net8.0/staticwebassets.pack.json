@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\js\\flights.js",
+      "PackagePath": "staticwebassets\\js\\flights.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SalesOnline.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SalesOnline.Api.props",
+      "PackagePath": "build\\SalesOnline.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SalesOnline.Api.props",
+      "PackagePath": "buildMultiTargeting\\SalesOnline.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SalesOnline.Api.props",
+      "PackagePath": "buildTransitive\\SalesOnline.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

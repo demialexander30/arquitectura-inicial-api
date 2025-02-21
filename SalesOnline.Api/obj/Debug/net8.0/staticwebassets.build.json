@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "XmGU9CiSLxXRmnWfXi2VVl4D1NvhHs+OmbtzNTou0v4=",
+  "Source": "SalesOnline.Api",
+  "BasePath": "_content/SalesOnline.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SalesOnline.Api\\wwwroot",
+      "Source": "SalesOnline.Api",
+      "ContentRoot": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\",
+      "BasePath": "_content/SalesOnline.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\index.html",
+      "SourceId": "SalesOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\",
+      "BasePath": "_content/SalesOnline.Api",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\js\\flights.js",
+      "SourceId": "SalesOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\",
+      "BasePath": "_content/SalesOnline.Api",
+      "RelativePath": "js/flights.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\flights.js"
+    }
+  ]
+}

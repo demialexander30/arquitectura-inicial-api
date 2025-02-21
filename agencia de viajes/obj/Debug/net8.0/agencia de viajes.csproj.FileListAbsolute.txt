@@ -1,0 +1,32 @@
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\appsettings.json
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\agencia de viajes.exe
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\agencia de viajes.deps.json
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\agencia de viajes.runtimeconfig.json
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\agencia de viajes.dll
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\agencia de viajes.pdb
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.csproj.AssemblyReference.cache
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.AssemblyInfoInputs.cache
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.AssemblyInfo.cs
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.csproj.CoreCompileInputs.cache
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\staticwebassets\msbuild.agencia de viajes.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\staticwebassets\msbuild.build.agencia de viajes.props
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.agencia de viajes.props
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.agencia de viajes.props
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\scopedcss\bundle\agencia de viajes.styles.css
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia .A8CF5D4D.Up2Date
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.dll
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\refint\agencia de viajes.dll
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.pdb
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\agencia de viajes.genruntimeconfig.cache
+C:\Users\demia\source\repos\agencia de viajes\agencia de viajes\obj\Debug\net8.0\ref\agencia de viajes.dll
