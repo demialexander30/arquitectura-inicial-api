@@ -15,3 +15,4 @@ C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Infrastructure\obj\Deb
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Infrastructure\obj\Debug\net8.0\SalesOnline.Infrastructure.pdb
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Infrastructure\obj\Debug\net8.0\SalesOnline.Infrastructure.genruntimeconfig.cache
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Infrastructure\obj\Debug\net8.0\ref\SalesOnline.Infrastructure.dll
+c:\Users\demia\source\repos\agencia de viajes\SalesOnline.Infrastructure\obj\Debug\net8.0\SalesOnline.Infrastructure.sourcelink.json

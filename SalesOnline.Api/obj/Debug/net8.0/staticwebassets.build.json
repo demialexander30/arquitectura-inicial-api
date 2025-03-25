@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XmGU9CiSLxXRmnWfXi2VVl4D1NvhHs+OmbtzNTou0v4=",
+  "Hash": "llikwO3wX1tr+VtCK3EXQLbKSSw/INrBMz+OJBjd0dU=",
   "Source": "SalesOnline.Api",
   "BasePath": "_content/SalesOnline.Api",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\flights.js"
+    },
+    {
+      "Identity": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\js\\tours.js",
+      "SourceId": "SalesOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\",
+      "BasePath": "_content/SalesOnline.Api",
+      "RelativePath": "js/tours.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\tours.js"
     }
   ]
 }

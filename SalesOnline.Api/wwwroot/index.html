@@ -3,71 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flight Management System</title>
+    <title>Agencia de Viajes - Tours</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .container { margin-top: 20px; }
         .btn { margin-right: 5px; }
+        .tour-card { margin-bottom: 20px; }
+        .tour-image { height: 200px; object-fit: cover; }
     </style>
 </head>
 <body>
     <div class="container mt-4">
-        <h1 class="mb-4">Flight Management System</h1>
+        <h1 class="mb-4">Gestión de Tours</h1>
         
-        <!-- Add Flight Button -->
-        <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#flightModal">
-            Add New Flight
+        <!-- Add Tour Button -->
+        <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#tourModal">
+            Agregar Nuevo Tour
         </button>
 
-        <!-- Flights Table -->
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Flight Number</th>
-                    <th>Origin</th>
-                    <th>Destination</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody id="flightsTableBody">
-            </tbody>
-        </table>
+        <!-- Search Controls -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <input type="text" id="destinationSearch" class="form-control" placeholder="Buscar por destino...">
+            </div>
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="number" id="minPrice" class="form-control" placeholder="Precio mínimo">
+                    <input type="number" id="maxPrice" class="form-control" placeholder="Precio máximo">
+                    <button class="btn btn-secondary" id="searchPrice">Buscar por precio</button>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-info w-100" id="showAvailable">Tours Disponibles</button>
+            </div>
+        </div>
+
+        <!-- Tours Grid -->
+        <div class="row" id="toursGrid">
+        </div>
     </div>
 
-    <!-- Flight Modal -->
-    <div class="modal fade" id="flightModal" tabindex="-1">
+    <!-- Tour Modal -->
+    <div class="modal fade" id="tourModal" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalTitle">Add New Flight</h5>
+                    <h5 class="modal-title" id="modalTitle">Agregar Nuevo Tour</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="flightForm">
-                        <input type="hidden" id="flightId">
+                    <form id="tourForm">
+                        <input type="hidden" id="tourId">
                         <div class="mb-3">
-                            <label for="flightNumber" class="form-label">Flight Number</label>
-                            <input type="text" class="form-control" id="flightNumber" required>
+                            <label for="name" class="form-label">Nombre del Tour</label>
+                            <input type="text" class="form-control" id="name" required>
                         </div>
                         <div class="mb-3">
-                            <label for="origin" class="form-label">Origin</label>
-                            <input type="text" class="form-control" id="origin" required>
+                            <label for="description" class="form-label">Descripción</label>
+                            <textarea class="form-control" id="description" required></textarea>
                         </div>
                         <div class="mb-3">
-                            <label for="destination" class="form-label">Destination</label>
+                            <label for="price" class="form-label">Precio</label>
+                            <input type="number" class="form-control" id="price" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="form-label">Destino</label>
                             <input type="text" class="form-control" id="destination" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="duration" class="form-label">Duración (días)</label>
+                            <input type="number" class="form-control" id="duration" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="maxGroupSize" class="form-label">Tamaño Máximo del Grupo</label>
+                            <input type="number" class="form-control" id="maxGroupSize" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="startDate" class="form-label">Fecha de Inicio</label>
+                            <input type="date" class="form-control" id="startDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="endDate" class="form-label">Fecha de Fin</label>
+                            <input type="date" class="form-control" id="endDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="imageUrl" class="form-label">URL de la Imagen</label>
+                            <input type="url" class="form-control" id="imageUrl">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="isAvailable">
+                            <label class="form-check-label" for="isAvailable">Disponible</label>
                         </div>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" id="saveFlight">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="saveTour">Guardar</button>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/flights.js"></script>
+    <script src="js/tours.js"></script>
 </body>
 </html>

@@ -3,8 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0C1674F-2D21-4F43-AFA5-A5406D7B8AA2}|SalesOnline.Api\\SalesOnline.Api.csproj|c:\\users\\demia\\source\\repos\\agencia de viajes\\salesonline.api\\salesonline.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{E0C1674F-2D21-4F43-AFA5-A5406D7B8AA2}|SalesOnline.Api\\SalesOnline.Api.csproj|solutionrelative:salesonline.api\\salesonline.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +18,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SalesOnline.Api",
-              "DocumentMoniker": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\SalesOnline.Api.csproj",
-              "RelativeDocumentMoniker": "SalesOnline.Api\\SalesOnline.Api.csproj",
-              "ToolTip": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\SalesOnline.Api.csproj",
-              "RelativeToolTip": "SalesOnline.Api\\SalesOnline.Api.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-21T16:12:29.152Z",
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAJ0TAAAAAAAAAAAhwKkTAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-25T02:53:07.998Z",
               "EditorCaption": ""
             }
           ]

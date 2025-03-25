@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\js\\flights.js"
     },
     {
+      "Id": "C:\\Users\\demia\\source\\repos\\agencia de viajes\\SalesOnline.Api\\wwwroot\\js\\tours.js",
+      "PackagePath": "staticwebassets\\js\\tours.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SalesOnline.Api.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
