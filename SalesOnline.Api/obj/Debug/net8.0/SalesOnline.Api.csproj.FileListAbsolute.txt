@@ -205,3 +205,4 @@ C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Api\bin\Debug\net8.0\r
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Api\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Api\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Api\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+c:\Users\demia\source\repos\agencia de viajes\SalesOnline.Api\obj\Debug\net8.0\SalesOnline.Api.sourcelink.json

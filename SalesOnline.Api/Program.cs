@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using SalesOnline.Infrastructure.Context;
+using SalesOnline.Domain.Context;
 using SalesOnline.IOC.Dependencies;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,11 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Add dependencies
-builder.Services.AddDependencies();
-
-// Add DbContext using SQLite
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlite("Data Source=SalesOnline.db"));
+builder.Services.AddDependencies(builder.Configuration);
 
 var app = builder.Build();
 
@@ -24,30 +20,24 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "SalesOnline API V1");
+        c.RoutePrefix = "swagger";
+    });
 }
 
 app.UseHttpsRedirection();
-
+app.UseStaticFiles();
 app.UseAuthorization();
 
-// Serve static files from wwwroot
-app.UseStaticFiles();
-
-// Map default route to index.html
-app.MapGet("/", async context =>
+// Redirigir la ruta raíz al index.html
+app.MapGet("/", context =>
 {
     context.Response.Redirect("/index.html");
+    return Task.CompletedTask;
 });
 
 app.MapControllers();
-
-// Ensure database is created
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    var context = services.GetRequiredService<ApplicationDbContext>();
-    context.Database.EnsureCreated();
-}
 
 app.Run();
