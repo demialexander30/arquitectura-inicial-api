@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using SalesOnline.Domain.Context;
 using SalesOnline.Domain.Entities;
 using SalesOnline.Domain.Interfaces;
+using SalesOnline.Infrastructure.Context;
 
-namespace SalesOnline.Domain.Repositories
+namespace SalesOnline.Infrastructure.Repositories
 {
     public class TourRepository : ITourRepository
     {

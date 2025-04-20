@@ -1,13 +1,13 @@
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\bin\Debug\net8.0\SalesOnline.Domain.deps.json
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\bin\Debug\net8.0\SalesOnline.Domain.dll
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\bin\Debug\net8.0\SalesOnline.Domain.pdb
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.csproj.AssemblyReference.cache
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.AssemblyInfoInputs.cache
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.AssemblyInfo.cs
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.sourcelink.json
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.dll
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\refint\SalesOnline.Domain.dll
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.pdb
 C:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\ref\SalesOnline.Domain.dll
-c:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.csproj.AssemblyReference.cache
-c:\Users\demia\source\repos\agencia de viajes\SalesOnline.Domain\obj\Debug\net8.0\SalesOnline.Domain.sourcelink.json

@@ -4,10 +4,10 @@ using System.Threading.Tasks;
 
 namespace SalesOnline.Domain.Interfaces
 {
-    public interface ITourGuideRepository : IGenericRepository<TourGuide>
+    public interface ITourGuideRepository : IBaseRepository<TourGuide>
     {
-        Task<IEnumerable<TourGuide>> GetByLanguage(string language);
-        Task<IEnumerable<TourGuide>> GetBySpecialization(string specialization);
-        Task<IEnumerable<TourGuide>> GetAvailableForDateRange(DateTime startDate, DateTime endDate);
+        Task<IEnumerable<TourGuide>> GetBySpecializationAsync(string specialization);
+        Task<IEnumerable<TourGuide>> GetAvailableGuidesAsync(DateTime startDate, DateTime endDate);
+        Task<IEnumerable<TourGuide>> GetByLanguageAsync(string language);
     }
 }

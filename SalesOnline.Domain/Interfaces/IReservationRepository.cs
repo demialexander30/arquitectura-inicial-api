@@ -4,11 +4,11 @@ using System.Threading.Tasks;
 
 namespace SalesOnline.Domain.Interfaces
 {
-    public interface IReservationRepository : IGenericRepository<Reservation>
+    public interface IReservationRepository : IBaseRepository<Reservation>
     {
-        Task<IEnumerable<Reservation>> GetByCustomerId(int customerId);
-        Task<IEnumerable<Reservation>> GetByTourId(int tourId);
-        Task<IEnumerable<Reservation>> GetByStatus(ReservationStatus status);
-        Task<IEnumerable<Reservation>> GetByDateRange(DateTime startDate, DateTime endDate);
+        Task<IEnumerable<Reservation>> GetByCustomerIdAsync(int customerId);
+        Task<IEnumerable<Reservation>> GetByTourIdAsync(int tourId);
+        Task<IEnumerable<Reservation>> GetByDateRangeAsync(DateTime startDate, DateTime endDate);
+        Task<IEnumerable<Reservation>> GetByStatusAsync(ReservationStatus status);
     }
 }

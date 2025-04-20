@@ -7,7 +7,7 @@ namespace SalesOnline.Infrastructure.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {
-        private readonly ApplicationDbContext _context;
+        protected readonly ApplicationDbContext _context;
         private readonly DbSet<T> _entity;
 
         public GenericRepository(ApplicationDbContext context)

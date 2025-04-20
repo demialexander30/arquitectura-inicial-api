@@ -1,48 +1,57 @@
 using Microsoft.EntityFrameworkCore;
-using SalesOnline.Domain.Context;
 using SalesOnline.Domain.Entities;
 using SalesOnline.Domain.Interfaces;
+using SalesOnline.Infrastructure.Context;
+using SalesOnline.Infrastructure.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace SalesOnline.Infrastructure.Repositories
 {
-    public class PaymentRepository : GenericRepository<Payment>, IPaymentRepository
+    public class PaymentRepository : BaseRepository<Payment>, IPaymentRepository
     {
         public PaymentRepository(ApplicationDbContext context) : base(context)
         {
         }
 
-        public async Task<IEnumerable<Payment>> GetByReservationId(int reservationId)
+        public async Task<IEnumerable<Payment>> GetByReservationIdAsync(int reservationId)
         {
-            return await _context.Set<Payment>()
-                .Include(p => p.Reservation)
+            return await _entities
                 .Where(p => p.ReservationId == reservationId && !p.IsDeleted)
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<Payment>> GetByStatus(PaymentStatus status)
+        public async Task<IEnumerable<Payment>> GetByDateRangeAsync(DateTime startDate, DateTime endDate)
         {
-            return await _context.Set<Payment>()
-                .Include(p => p.Reservation)
-                .Where(p => p.Status == status && !p.IsDeleted)
+            return await _entities
+                .Where(p => p.PaymentDate >= startDate && 
+                           p.PaymentDate <= endDate && 
+                           !p.IsDeleted)
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<Payment>> GetByDateRange(DateTime startDate, DateTime endDate)
+        public async Task<decimal> GetTotalPaymentsForPeriodAsync(DateTime startDate, DateTime endDate)
         {
-            return await _context.Set<Payment>()
-                .Include(p => p.Reservation)
-                .Where(p => p.PaymentDate >= startDate && p.PaymentDate <= endDate && !p.IsDeleted)
+            return await _entities
+                .Where(p => p.PaymentDate >= startDate && 
+                           p.PaymentDate <= endDate && 
+                           !p.IsDeleted)
+                .SumAsync(p => p.Amount);
+        }
+
+        public async Task<IEnumerable<Payment>> GetPendingPaymentsAsync()
+        {
+            return await _entities
+                .Where(p => p.PaymentStatus == "Pending" && !p.IsDeleted)
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<Payment>> GetByPaymentMethod(PaymentMethod method)
+        public async Task<IEnumerable<Payment>> GetPaymentsByMethodAsync(string paymentMethod)
         {
-            return await _context.Set<Payment>()
-                .Include(p => p.Reservation)
-                .Where(p => p.Method == method && !p.IsDeleted)
+            return await _entities
+                .Where(p => p.PaymentMethod == paymentMethod && !p.IsDeleted)
                 .ToListAsync();
         }
     }

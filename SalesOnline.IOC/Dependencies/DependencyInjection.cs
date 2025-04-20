@@ -1,10 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using SalesOnline.Domain.Core;
 using SalesOnline.Domain.Interfaces;
-using SalesOnline.Domain.Repositories;
-using SalesOnline.Domain.Context;
-using SalesOnline.Infrastructure;
+using SalesOnline.Infrastructure.Context;
+using SalesOnline.Infrastructure.Repositories;
 using Microsoft.Extensions.Configuration;
 
 namespace SalesOnline.IOC.Dependencies
@@ -19,7 +17,10 @@ namespace SalesOnline.IOC.Dependencies
 
             // Repositories
             services.AddScoped<ITourRepository, TourRepository>();
-            services.AddScoped(typeof(IUnitOfWork<>), typeof(UnitOfWork<>));
+            services.AddScoped<IReviewRepository, ReviewRepository>();
+            services.AddScoped<IReservationRepository, ReservationRepository>();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
             return services;
         }
